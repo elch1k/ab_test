@@ -7,18 +7,13 @@ Well, the research was conducted around all users and payment users. We can now 
 After a little EDA we have to choose the right test for the data, but these steps are detailed in the [notebook](https://github.com/elch1k/ab_testing/blob/main/AB_test_project.ipynb). I then chose the Mann-Whitney U test for my data where I ended up failing to reject H0 in both options. After that I tryied to implement universal method called bootstrap.
 
 We can observe a difference in the comparison of mean (average) revenue between all users and paying users.
-First option:
 ![image_02](https://github.com/elch1k/ab_testing/blob/main/images/image_02.png?raw=true)
-
-Second option:
 ![image_03](https://github.com/elch1k/ab_testing/blob/main/images/image_03.png?raw=true)
 
 As we see that in both situation we have variant group even worse than control, from this we can assume that our new change is not so good as we wanted.
 
-And finally solution by bootstrap method. First option:
+And finally solution by bootstrap method.
 ![image_04](https://github.com/elch1k/ab_testing/blob/main/images/image_04.png?raw=true)
-
-Second option:
 ![image_05](https://github.com/elch1k/ab_testing/blob/main/images/image_05.png?raw=true)
 
 ## Conclusion
