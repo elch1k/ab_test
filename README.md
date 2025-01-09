@@ -1,0 +1,2 @@
+Here I dive into ordinary Data Analyst task to make a common AB test. As I mentioned in .ipynb file it's really necessary to properly model the whole experiment: determine hypotesis, choose right metrics and randomization units, calculating sample size with a predetermined power and significance level and etc.. 
+This is a truly difficult and expensive process that a company must be confident in choosing.
