@@ -1,2 +1,4 @@
+images/
 ab_testing_all_theory.ipynb
 *.txt
+notebook_fixer.py
